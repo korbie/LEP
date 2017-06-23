@@ -1,57 +1,5 @@
 var fs = require('fs');
 
-/*
-var sampleSentence1 = {
-	text : ['The pen is', '#on#1', 'the notebook', '.'],
-	preps : ['on'],
-	img : '1000'
-};
-var sampleSentence2 = {
-	text : ['The saucer is', '#under#1', 'the cup', '.'],
-	preps : ['under'],
-	img : '1000'
-};
-var sampleSentence3 = {
-	text : ['The pencils are', '#in#1', 'the cup', '.'],
-	preps : ['in'],
-	img : '1001'
-};
-var sampleSentence4 = {
-	text : ['The notebook is', '#beside#1', 'the cup', '.'],
-	preps : ['beside'],
-	img : '1000'
-};
-var sampleSentence5 = {
-	text : ['The shell is', '#on#1', 'the sand', '.'],
-	preps : ['on'],
-	img : '1002'
-};
-var sampleSentence6 = {
-	text : ['The frog is', '#in#1', 'the water', '.'],
-	preps : ['in'],
-	img : '1003'
-};
-var sampleSentence7 = {
-	text : ['The frog is', '#on#1', 'the leaf', '.'],
-	preps : ['on'],
-	img : '1004'
-};
-var sampleSentence8 = {
-	text : ['The horses are standing', '#in#1', 'the falling snow', '.'],
-	preps : ['in'],
-	img : '1005'
-};
-var sampleSentence9 = {
-	text : ['The moon is', '#over#1', 'the lake', '.'],
-	preps : ['over'],
-	img : '1006'
-};
-
-*/
-
-
-//var sentences = [sampleSentence1, sampleSentence2, sampleSentence3, sampleSentence4, sampleSentence5, sampleSentence6, sampleSentence7, sampleSentence8, sampleSentence9];
-
 var isPunctuation = function(e){
 	return (e === '.' || e === '?' || e === '!' || e === '...');
 };

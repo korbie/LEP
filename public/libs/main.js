@@ -144,7 +144,7 @@ var manager = (function(){
 	};
 	
 	var setVisualAid = function(fileName){
-		var path = 'img/' + fileName + '.jpg';
+		var path = fileName + '.jpg';//////THIS WILL HAVE TO BE CHANGED IF THE NGINX STATIC SOURCE FILE HAS SUBDIRECTORIES....
 		$('#visualAid').attr('src', path);
 	};
 	
