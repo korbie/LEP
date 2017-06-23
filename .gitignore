@@ -1,0 +1,8 @@
+node_modules
+vendor
+data
+img	
+*.xcf
+*.jpg
+*.png
+*.svg
